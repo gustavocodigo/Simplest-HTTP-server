@@ -41,6 +41,12 @@ int main(int argc, char **argv)
 }
 
 ```
+![image](https://github.com/gustavocodigo/Simplest-HTTP-server/assets/108258194/f8b28e9b-ce5c-4192-b8f8-9efe01122719)
+
+
+
+
+
 # Example 2
 - simple api
 
