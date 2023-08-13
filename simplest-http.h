@@ -30,7 +30,7 @@ enum METHOD {
     GET, POST, DELETE,PATCH, OPTIONS, HEAD
 };
 
-const int METHOD_ARRAY_SIZE = 3;
+const int METHOD_ARRAY_SIZE = 6;
 
 
 
