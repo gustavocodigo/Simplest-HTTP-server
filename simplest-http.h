@@ -19,12 +19,15 @@ const char *HTTP_HEADER_GOOD_HTML_FORMAT = "HTTP/1.1 200 OK\nContent-Type: text/
 const char *methods[] = {
     "GET",
     "POST",
-    "DELETE"
+    "DELETE",
+    "PATCH",
+    "OPTIONS",
+    "HEAD"
 };
 
 
 enum METHOD {
-    GET, POST, DELETE
+    GET, POST, DELETE,PATCH, OPTIONS, HEAD
 };
 
 const int METHOD_ARRAY_SIZE = 3;
