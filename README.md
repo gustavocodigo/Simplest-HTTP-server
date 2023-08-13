@@ -5,7 +5,7 @@ then you can use GCC
 ```sh
 gcc main.c
 ```
-- waning work on linux based kernels only
+- warning work on linux based kernels only
 
 
 
