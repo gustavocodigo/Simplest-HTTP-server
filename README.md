@@ -61,7 +61,7 @@ int main(int argc, char **argv)
 # Example 2
 - simple api
 
-```c
+```C
 #include <stdio.h>
 #include "simplest-http.h"
 
