@@ -1,3 +1,14 @@
+# Compilation
+- the compilation is simple including the header file to your source code.
+
+then you can use GCC 
+```sh
+gcc main.c
+```
+
+
+
+
 # Simplest-HTTP-server
 an simple http server single threaded written in C
 to used for Inter Process Comunication
