@@ -5,8 +5,12 @@ then you can use GCC
 ```sh
 gcc main.c
 ```
-- warning work on linux based kernels only
 
+
+
+# Warnings
+- this first version is for linux based kernels only
+- this should not be used on web with various users its single threaded to be simple and easy to use
 
 
 # Simplest-HTTP-server
