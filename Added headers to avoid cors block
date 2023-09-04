@@ -11,9 +11,9 @@
 
 // source code
 
-const char *HTTP_HEADER_GOOD_FORMAT = "HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Length: %ul\n\n%s";
-const char *HTTP_HEADER_MISSING_FORMAT = "HTTP/1.1 404 Not Found\nContent-Type: text/plain\nContent-Length: %lu\n\n%s";
-const char *HTTP_HEADER_GOOD_HTML_FORMAT = "HTTP/1.1 200 OK\nContent-Type: text/html\nContent-Length: %lu\n\n%s";
+const char *HTTP_HEADER_GOOD_FORMAT = "HTTP/1.1 200 OK\nContent-Type: text/plain\nContent-Length: %lu\nAccess-Control-Allow-Origin: *\n\n%s";
+const char *HTTP_HEADER_MISSING_FORMAT = "HTTP/1.1 404 Not Found\nContent-Type: text/plain\nContent-Length: %lu\nAccess-Control-Allow-Origin: *\n\n%s";
+const char *HTTP_HEADER_GOOD_HTML_FORMAT = "HTTP/1.1 200 OK\nContent-Type: text/html\nContent-Length: %lu\nAccess-Control-Allow-Origin: *\n\n%s";
 
 
 const char *methods[] = {
